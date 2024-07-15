@@ -1,8 +1,9 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import Layout from "../components/Layout";
 
-const Login: React.FC = () => {
+const Reset: React.FC = () => {
   const formik = useFormik({
     initialValues: {
       email: '',
@@ -19,8 +20,9 @@ const Login: React.FC = () => {
   });
 
   return (
+    <Layout title="Users List | Next.js + TypeScript Example">
     <div className="login-container">
-      <h2>Login</h2>
+      <h2>Reset User</h2>
       <form onSubmit={formik.handleSubmit}>
         <div>
           <label htmlFor="email">Email Address</label>
@@ -47,7 +49,9 @@ const Login: React.FC = () => {
         <button type="submit">Login</button>
       </form>
     </div>
+    </Layout>
   );
 };
 
-export default Login;
+
+export default Reset;
