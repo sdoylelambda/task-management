@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from "next/link";
+
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Layout from "../components/Layout";
@@ -48,6 +50,7 @@ const New: React.FC = () => {
         </div>
         <button type="submit">Login</button>
       </form>
+      <Link href="/">Go home</Link>
     </div>
     </Layout>
   );

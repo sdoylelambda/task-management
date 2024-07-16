@@ -72,3 +72,4 @@ Advanced Features (Optional):
 [] - Notifications: Email or SMS notifications for task reminders.
 [] - Search and Filter: Implement search functionality and task filtering based on various criteria.
 [] - Analytics Dashboard: Provide insights into task completion rates, overdue tasks, etc.
+[] - Inspirational Quote of the day

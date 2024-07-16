@@ -16,8 +16,8 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     </Head>
     <header>
       <nav>
-        <Link href="/">Home</Link> | <Link href="/about">About</Link> |{" "}
-        <Link href="/users">Users List</Link> |{" "}
+        <Link href="/">Home</Link> | <Link href="/task">Task</Link> |{" "}
+        <Link href="/tasks">Tasks List</Link> |{" "}
         <Link href="/login">Login</Link> |{" "}
         <Link href="/reset">Password Reset</Link> |{" "}
         <Link href="/new">New User</Link> |{" "}
@@ -27,7 +27,9 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     {children}
     <footer>
       <hr />
-      <span>Hello (Footer)</span>
+      <h3>Inspirational Quote of the Day</h3>
+      <img src="images\wheel-of-life.png"></img>
+      <span>"Believe you can and you're halfway there." – Theodore Roosevelt</span>
     </footer>
   </div>
 );

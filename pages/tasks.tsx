@@ -11,6 +11,7 @@ type Props = {
   };
 
 const Tasks = ({ items }: Props) => {
+    return (
     <Layout title="Users List | Next.js + TypeScript Example">
         <h2>View Tasks</h2>
         <p>You are currently on: /users</p>
@@ -19,6 +20,7 @@ const Tasks = ({ items }: Props) => {
         <Link href="/">Go home</Link>
     </p>
     </Layout>
+    )
 };
 
 export const getStaticProps: GetStaticProps = async () => {
