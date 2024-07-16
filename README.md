@@ -51,7 +51,12 @@ A `type-check` script is also added to `package.json`, which runs TypeScript's `
 
 Key Features:
 [c] - User Authentication: Sign-up, login, password reset functionality.
+        [x] Sign-up, login, password reset pages
+        [] DB setup users
+        [] Connect
 [] - Task Creation: Users can create tasks with titles, descriptions, due dates, and priorities.
+        [] Page Create New Task
+        [] Page View Tasks
 [] - Task Management: Edit, delete, and mark tasks as complete.
 [] - User Roles: Admins can manage users and tasks.
 [] - Responsive Design: Mobile-friendly interface.
