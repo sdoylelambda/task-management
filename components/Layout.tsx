@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import Link from "next/link";
 import Head from "next/head";
+import PieChart from "./PieChart"
 
 type Props = {
   children?: ReactNode;
@@ -28,8 +29,12 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     <footer>
       <hr />
       <h3>Inspirational Quote of the Day</h3>
-      <img src="images\wheel-of-life.png"></img>
       <span>"Believe you can and you're halfway there." – Theodore Roosevelt</span>
+      {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', margin: 0 }}> */}
+      {/* <img src="/images/wheel-of-life.png" alt="Wheel of Life" style={{ maxHeight: '400px'}} /> */}
+      <PieChart />
+
+    {/* </div> */}
     </footer>
   </div>
 );
