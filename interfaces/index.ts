@@ -8,3 +8,10 @@ export type User = {
   id: number;
   name: string;
 };
+
+export type TaskInterface = {
+  id: number;
+  name: string;
+  description: string;
+  catagory: string;
+};
