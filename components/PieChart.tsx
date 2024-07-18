@@ -2,10 +2,10 @@ import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 
 const data = [
-  { name: 'Romance', value: 200 },
-  { name: 'Family & Friends', value: 300 },
-  { name: 'Career', value: 300 },
   { name: 'Physical Environment', value: 400 },
+  { name: 'Career', value: 300 },
+  { name: 'Family & Friends', value: 300 },
+  { name: 'Romance', value: 200 },
   { name: 'Personal Growth', value: 400 },
   { name: 'Money', value: 300 },
   { name: 'Health', value: 300 },
