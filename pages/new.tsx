@@ -48,6 +48,17 @@ const New: React.FC = () => {
             <div className="error">{formik.errors.password}</div>
           ) : null}
         </div>
+        <div>
+          <label htmlFor="password">Confirm Password</label>
+          <input
+            id="password"
+            type="password"
+            {...formik.getFieldProps('password')}
+          />
+          {formik.touched.password && formik.errors.password ? (
+            <div className="error">{formik.errors.password}</div>
+          ) : null}
+        </div>
         <button type="submit">Login</button>
       </form>
       <Link href="/">Go home</Link>
