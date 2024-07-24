@@ -1,5 +1,5 @@
-## Task Management based on the the Wheel Of Life
-## WIP
+Task Management based on the the Wheel Of Life
+WIP
 
 Key Features:
 [c] - User Authentication: Sign-up, login, password reset functionality.
