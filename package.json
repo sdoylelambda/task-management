@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://sdoylelambda.github.io/task-management",
   "scripts": {
     "dev": "next",
     "build": "next build",
