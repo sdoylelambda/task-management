@@ -1,11 +1,12 @@
 /**
- * 
+ * @type {import('next').NextConfig}
  */
 
-module.exports = {
+const nextConfig = {
     output: 'export',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/task-management/' : '',
-    basePath: process.env.NODE_ENV === 'production' ? '/task-management' : '',
+    assetPrefix: '/task-management/',
+    basePath: '/task-management'
   }
 
   module.exports = nextConfig
+
