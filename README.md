@@ -73,3 +73,4 @@ Advanced Features (Optional):
 [] - Search and Filter: Implement search functionality and task filtering based on various criteria.
 [] - Analytics Dashboard: Provide insights into task completion rates, overdue tasks, etc.
 [] - Inspirational Quote of the day
+
